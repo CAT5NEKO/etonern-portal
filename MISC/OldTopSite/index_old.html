@@ -3,7 +3,6 @@
 	<head>
 		<meta content="ja" http-equiv="Content-Language" />
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Etonern Federation Web Portal</title>
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-HPGYFRBNM2"></script>
@@ -75,10 +74,20 @@
 			// -->
 		</script>
 
-		<link rel="stylesheet" type="text/css" href="./TopPage/styles.css" />
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=M+PLUS+1:wght@200;300&display=swap");
+
+			h1 {
+				font-family: "Jost", sans-serif;
+			}
+
+			p {
+				font-family: "M PLUS 1", sans-serif;
+			}
+		</style>
 	</head>
 
-	<body onload="FP_preloadImgs('button3.gif', 'button4.gif')">
+	<body onload="FP_preloadImgs(/*url*/'button3.gif',/*url*/'button4.gif')">
 		<h1>Welcome to Etonern Federation Web Portal!!</h1>
 		<p>
 			あなたは
@@ -86,22 +95,21 @@
 			<noscript><img src="//counter1.fc2.com/counter_img.php?id=89500822" /></noscript>人目のお客様です。
 		</p>
 		<p>
-			<a href="Links">
+			<a href="../../Links">
 				<img
 					id="img1"
 					alt="入館"
 					height="20"
-					onmousedown="FP_swapImg(1,0,'img1','./TopPage/button4.gif')"
-					onmouseout="FP_swapImg(0,0,'img1','./TopPage/button2.gif')"
-					onmouseover="FP_swapImg(1,0,'img1','./TopPage/button3.gif')"
-					onmouseup="FP_swapImg(0,0,'img1','./TopPage/button3.gif')"
-					src="./TopPage/button2.gif"
+					onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button4.gif')"
+					onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button2.gif')"
+					onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button3.gif')"
+					onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button3.gif')"
+					src="button2.gif"
 					style="border: 0"
 					width="100"
-				/>
-			</a>
+				/><!-- MSComment="ibutton" fp-style="fp-btn: Embossed Capsule 1; fp-transparent: 1" fp-title="入館" --></a
+			>
 		</p>
-
 		<p>
 			<iframe
 				title=":wowowyeiyeiye:"
@@ -113,15 +121,17 @@
 				frameborder="0"
 			></iframe>
 		</p>
-
-		<p>キリ番報告は<a href="https://msk.ilnk.info">えとねるんで！</a></p>
-		<br />
-
-		<footer>
-			<a href="https://letsencrypt.org" rel="nofollow" title="Let's Encrypt">
-				<img src="./TopPage/LEClogo.png" alt="Let's Encrypt" width="80" height="18.5">
-			</a>
-
-		</footer>
+		<p>
+			キリ番報告は<a
+				href="https://privacy-is-heavy.cf/?text=@morotesovtannu@msk.ilnk.info えとねるんDocsでキリ番取りました！"
+				>こちらへ</a
+			>
+			<br />
+			<a href="https://www.gogetssl.com" rel="nofollow" title="GoGetSSL Site Seal Logo"
+				><div id="gogetssl-animated-seal" style="width: 180px; height: 58px"></div
+			></a>
+			<script src="https://gogetssl-cdn.s3.eu-central-1.amazonaws.com/site-seals/gogetssl-seal.js"></script>
+			<br />
+		</p>
 	</body>
 </html>
