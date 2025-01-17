@@ -14,7 +14,6 @@
 でもでもです
 こんにちは by Etone Sabasappugawa(morotesovtannu)
 
-
 入れました。@woxin_chang_dan1904
 
 こんばんはby黒血川ゆず
@@ -66,16 +65,21 @@ easypolicy.css
 →視認性向上
 
 上記編集からさらに
+
 ## 変更点
+
 ### all
+
     html-tidy
     インデント崩れの修正
     不正なタグの除去
 
 ### main.css
-add     .body   >   white-space:nowrap;
-add     .body   >   color:#C6C3C9;
-remove  .body   >   max-width: 770px;
+
+add .body > white-space:nowrap;
+add .body > color:#C6C3C9;
+remove .body > max-width: 770px;
 
 ### easypolicy.html
-add     js      >   年を動的に書き換えるように
+
+add js > 年を動的に書き換えるように
